@@ -136,7 +136,7 @@ export const profile = {
       },
       {
         name: "Age",
-        value: "16",
+        value: "18",
       },
     ],
     skills: [
