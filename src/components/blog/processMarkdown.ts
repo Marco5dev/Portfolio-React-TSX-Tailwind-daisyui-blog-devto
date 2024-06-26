@@ -5,7 +5,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeSlug from 'rehype-slug';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeStringify from 'rehype-stringify';
-import rehypeAddClasses from 'rehype-add-classes';
+import rehypeAddClasses from 'rehype-class-names';
 
 export async function processMarkdown(markdown: string): Promise<string> {
   const file = await unified()
